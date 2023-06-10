@@ -24,4 +24,5 @@ for i in range(0, len(H), len(H) // 10):
     ax.arrow(H.real[i], H.imag[i], H.real[i + 1] - H.real[i], H.imag[i + 1] - H.imag[i],
              shape='full', lw=0, length_includes_head=True, head_width=0.09)
 
+# 그림을 Streamlit 애플리케이션에 표시
 st.pyplot(fig)
