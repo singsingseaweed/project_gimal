@@ -3,7 +3,7 @@ import pandas as pd
 
 
 st.set_page_config(
-    page_title="제어공학기말",
+    page_title="202021025 임수창",
 )
 
 st.header("제어공학기말 202021025 임수창")
