@@ -8,7 +8,6 @@ st.set_page_config(
 )
 
 st.header("주파수응답")
-st.subheader("2번문제 streamlit 으로 공유")
 
 num = [100]
 den = [1, 5, 106]
