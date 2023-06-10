@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
 
-sys = signal.lti([], [1, 5, 106])
+sys = signal.lti([100], [1, 5, 106])
 
 freqs, H = signal.freqresp(sys)
 
