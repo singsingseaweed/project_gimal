@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import TransferFunction, lsim
 
+st.header("입력과 출력의 시간에 따른 변화")
+
 def plot_input_output():
     num = [100]
     den = [1, 5, 106]
