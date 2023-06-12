@@ -31,7 +31,4 @@ def plot_input_output():
 
     st.pyplot(plt.gcf())
 
-st.title('Input & Output Plot')
-st.write('This app demonstrates the input and output plot of a system over time.')
-
 plot_input_output()
