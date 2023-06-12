@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
 
+st.header("벡터궤적")
+
 sys = signal.lti([100], [1, 5, 106])
 
 freqs, H = signal.freqresp(sys)
